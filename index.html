@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Shapes Art Academy</title>
+</head>
+<body>
+
+  <!--header-->
+
+  <section class="header">
+    <div class="navigation">
+      <img class="logo" src="images/logo.PNG">
+      <ul>
+        <li><a href="">HOME</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+        <li><a href="">WORK</a></li>
+        <li><a href="">CONTACT</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!--home-->
+
+  <section class="home" id="home">
+    <img class="bg" src="images/home.JPG">
+    <div class="content">
+      <h1>shapes</h1>
+      <h4>art academy</h4>
+      <p>"it's incredible how lines turn into art."</p>
+      <button class="search" type="button"><a href="">explore</a></button>
+    </div>
+  </section>
+
+
+  <!--intro-->
+
+  <section class="introtext">
+    <h1>what is art?</h1>
+    <p>Art is a form of communication, as far as we date back to its origin, painting and all different art forms were a
+      way of storytelling (ex. cave paintings). It is a form of portraying human emotions in ways words can’t. A moment
+      of peace in a rushing world. We’ve all had a lifelong bond with a pen/pencil, the art of scratching it just right
+      to obtain what we admire to write or make is what has evolved humanity better than any species. Today, art is
+      therapeutic, something that keeps the beauty alive. And that’s what Shapes Art Academy aims for.</p>
+  </section>
+
+  <!--articles-->
+
+  <section class="about" id="articles">
+    <div class="img">
+      <img class="bg" src="images/abt1.jpg">
+    </div>
+    <div class="content1">
+      <h1 class="title">constellations</h1>
+      <p class="text"><span>“Art demands constant observation.” – Vincent Van Gogh</span><br><br>The way of connecting lines at specific points and making a shape, or an object out of it is what we call Constellations. For as the stars play the right role in forming one, the points of all the lines connecting are just as significant. And then what you lead to is a starry night.</p>
+    </div>
+  </section>
+  <section class="about1">
+    <div class="content2">
+      <h1 class="title">days & nights</h1>
+      <p class="text"><span>“All art is but dirtying the paper delicately.” – John Ruskin</span><br><br>To change a drawing into a picture, takes some of the dark. And darkness is nothing but lack of light, and art is a mixture of the daylight as well as the night skies, the constellations, and the highlights. When brought together just right, you become one of those they call; an artist.</p>
+    </div>
+    <div class="img">
+      <img class="bg" src="images/abt2.jpg">
+    </div>
+  </section>
+
+
+  <!-- image grid-->
+  
+  <div class="heading" id="gallery">
+    <h1>gallery</h1>
+    <p>the shapes art showcase.</p>
+  </div>
+  <div class="container">
+    <div class="bg1">
+      <h1></h1>
+    </div>
+    <div class="bg2">
+      <h1></h1>
+    </div>
+    <div class="bg3">
+      <h1></h1>
+    </div>
+    <div class="bg4">
+      <h1></h1>
+    </div>
+  </div>
+  
+  <!--image slider start-->
+  <div class="heading">
+    <p>the shapes art sketchbook.</p>
+  </div>
+  <section class="scroll">
+  <div class="slider">
+    <div class="slides">
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      <div class="slide first">
+        <img src="images/about1.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="images/about2.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="images/about3.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="images/about4.jpg" alt="">
+      </div>
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+      </div>
+    </div>
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+    </div>
+  </div>
+  <script type="text/javascript">
+    var counter = 1;
+    setInterval(function () {
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if (counter > 4) {
+        counter = 1;
+      }
+    }, 5000);
+  </script>
+  </section>
+
+  <!--drawing and sketching-->
+
+  <div class="heading">
+    <h1>lessons</h1>
+    <p>the shapes art experience</p>
+  </div>
+  <section class="about1">
+    <div class="content2">
+      <h1 class="title">what is drawing?</h1>
+      <p class="text"><span>“The object of art is to give life a shape.” – William Shakespeare</span><br><br>Drawing begins with a mere line; it ends with one. We’ve all known to scratch a line, whether horizontal, vertical, or slanting, on a piece of a paper. To establish a foundation for your art, by connecting several ends to help you find your drawing is all the decent and crucial work of lines. And lines lead to shapes. We live in a universe that is made of shapes, one shape or a combination of shapes, every object hides one within. In drawing, we only construct an object, with shapes that we call proportions. To give that object a soul and life, is the art of sketching.</p>
+    </div>
+    <div class="img">
+      <img class="bg" src="images/lesson1.jpg">
+    </div>
+  </section>
+  <section class="about1">
+    <div class="content2">
+      <h1 class="title">what is sketching?</h1>
+      <p class="text"><span>“The artist sees what others only catch a glimpse of.” – Leonardo Da Vinci</span><br><br>Art is a composition of light and dark, highlights and shadows, shades. A drawing is just a bare piece of paper, but when put proper layers to it, a drawing becomes lively. To recreate that depth of dark and the surface of light, is to bring a sketch to life. A sketch that speaks, remember art is a form of communicating, it is a storytelling. Shades, is the only aspect that justifies the shape and curves of an object. Shading is an art of changing the foundation shapes into objects. A square becomes a cube, a circle becomes a sphere, a triangle becomes pyramid</p>
+    </div>
+    <div class="img">
+      <img class="bg" src="images/lesson2.jpg">
+    </div>
+  </section>
+
+      <!--cards-->
+      
+      <div class="heading" id="location">
+        <h1>on sale</h1>
+        <p>the shapes art exhibition</p>
+      </div>
+      <section class="cards">
+        <div class="card" style="width: 18rem;">
+          <img src="images/card1.jpg" class="card-img-top" alt="SHACKLED IN TIME">
+          <div class="card-body">
+            <h5 class="card-title">SHACKLED IN TIME</h5>
+            <p class="card-text">Graphite pencils on paper.<br>Size - A3 (36.8 x 27.6cm)<br>Recreation of the 'Prometheus & The Other Nymphs' sculpture.</p>
+            <a href="#home" class="btn-btn-primary">buy now</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/card2.jpg" class="card-img-top" alt="WHERE IS MY MIND?">
+          <div class="card-body">
+            <h5 class="card-title">WHERE IS MY MIND?</h5>
+            <p class="card-text">Graphite pencils on paper.<br>Size - A4 (29.6 x 21.1 cm)<br>Recreation of "The Head of A Youth" sculpture.</p>
+            <a href="#home" class="btn-btn-primary">buy now</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/card3.jpg" class="card-img-top" alt="THE GOD OF THE SEAS ">
+          <div class="card-body">
+            <h5 class="card-title">THE GOD OF THE SEAS </h5>
+            <p class="card-text">Graphite pencils on paper.<br>Size - A4 (29.6 x 21.1cm)<br>Recreation of the renowned Poseidon sculpture.</p>
+            <a href="#home" class="btn-btn-primary">buy now</a>
+          </div>
+        </div>
+      </section>
+      <section class="cards">
+        <div class="card" style="width: 18rem;">
+          <img src="images/card4.jpg" class="card-img-top" alt="TIME TO FLOAT ">
+          <div class="card-body">
+            <h5 class="card-title">TIME TO FLOAT</h5>
+            <p class="card-text">Graphite pencils on paper.<br>Size - A4 (29.6 x 21.1cm)<br>Inspired by the English Horror movie 'IT'</p>
+            <a href="#home" class="btn-btn-primary">buy now</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/card5.jpg" class="card-img-top" alt="BEFORE SUNRISE">
+          <div class="card-body">
+            <h5 class="card-title">BEFORE SUNRISE</h5>
+            <p class="card-text">Graphite pencils on paper.<br>Size - A5 (21 x 14.7cm)<br>Inspired by the English movie 'Before Sunrise'</p>
+            <a href="#home" class="btn-btn-primary">buy now</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/card6.jpg" class="card-img-top" alt="OCEAN FOR EYES">
+          <div class="card-body">
+            <h5 class="card-title">OCEAN FOR EYES</h5>
+            <p class="card-text">Graphite & Coloured pencils on paper.<br>Size - A5 (21 x 14.7cm)<br>Inspired portrait of the model Moya P.</p>
+            <a href="#home" class="btn-btn-primary">buy now</a>
+          </div>
+        </div>
+      </section>
+
+  <!--about-->
+
+  <section class="aboutme">
+    <div class="main">
+      <img src="images/self.jpg" alt="">
+      <div class="aboutext">
+        <h1>about</h1>
+        <h5>the artist</h5>
+        <p>Prithviraj Phalke is a 19-year-old, self-taught artist from Nashik, Maharashtra. In an attempt to share his prowess through Shapes. He believes, “Art can save lives in ways we don’t realize, & sketching is poetry; with the correct lines drawn together.” At Shapes Art Academy, he teaches & shares lessons as well as experiences, in ways that can make art easier & more fun. Also, selling his artwork which includes custom-commissioned portraits of you & your loved ones.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--footer image-->
+
+  <section class="footer-image">
+    <img src="images/images.jfif">
+  </section>
+
+  <!--footer-->
+
+  <div class="footer-logo">
+    <img src="images/logo.PNG" id="contact">
+  </div>
+  <section class="footer">
+    <a href="mailto:shapesartacademy@gmail.com"><i class="bi bi-envelope"></i></a>
+    <a href="https://instagram.com/shapesartacademy?igshid=YmMyMTA2M2Y="><i class="bi bi-instagram"></i></a>
+    <a href="https://twitter.com/prithvimaybe?t=4XONtYnBU-HV9zQibYHLMg&s=08"><i class="bi bi-twitter"></i></a>
+    <a href="#home"><i class="bi bi-discord"></i></a>
+    <a href="#home"><i class="bi bi-pinterest"></i></a>
+  </section>
+</body>
+</html>
