@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(10, 10, 10);
+    background-color: black;
 }
 
 section{
@@ -491,6 +491,11 @@ section{
     color: #fff;
     font-size: 15px;
     line-height: 25px;
+}
+.aboutext img{
+    margin-top: 10px;
+    width: 230px;
+    height: auto;
 }
 .main{
     width: 1050px;
